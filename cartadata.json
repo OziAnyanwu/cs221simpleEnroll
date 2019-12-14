@@ -1,0 +1,1681 @@
+
+{
+  "MATH 19": {
+      "cid": "MATH 19",
+      "grades": {"A+": 4, "A": 22, "A-": 14, "B+": 16, "B": 16,
+          "B-": 12, "C+": 5, "C": 5, "C-": 2, "D+": 0, "D": 2,"D-":1,
+                "NP": 1},
+      "time": {"<5": 25, "5-10": 75, "10-15": 0, "15-20": 0, "20-25": 0,
+              "25-30": 0, "30-35": 0},
+      "evals": {"Chris Ohrt": 3.45, "Sam Kimport": 4.26, "Wang Yiran": 3.44},
+      "prereqs": [
+      ],
+      "py/object": "util.Course",
+      "quarters": {
+          "Aut": "Joonhyun La, George Schaeffer", "Win": "Beatrice Chetard", "Sum": "NA"
+      },
+      "units": 3,
+      "categories":["Calc"]
+  },
+
+    "MATH 20": {
+        "cid": "MATH 20",
+        "grades": {"A+": 4, "A": 20, "A-": 14, "B+": 18, "B": 15,
+                  "B-": 14, "C+": 6, "C": 5, "C-": 2, "D+": 0, "D": 1, "D-": 0,
+                  "NP": 1},
+        "time": {"<5": 50, "5-10": 44, "10-15": 6, "15-20": 0, "20-25": 0,
+                "25-30": 0, "30-35": 0},
+        "evals": {"George Schaeffer": 4.36, "Sam Kimport": 4.24, "Michael L Kemeny": 3.67},
+        "prereqs": ["Math 19"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Aut": "Mark Lucianovic", "Win": "Pawel Grzegrzolka, George Schaeffer",
+            "Spr": "George Schaeffer"
+        },
+        "units": 3,
+        "categories":["Calc"]
+    },
+
+    "MATH 21": {
+        "cid": "MATH 21",
+        "grades": {"A+": 2, "A": 18, "A-": 18, "B+": 16, "B": 19,
+                  "B-": 12, "C+": 6, "C": 4, "C-": 3, "D+": 0, "D": 1, "D-": 0,
+                  "NP": 2},
+        "time": {"<5": 26, "5-10": 57, "10-15": 13, "15-20": 4, "20-25": 0,
+                "25-30": 0, "30-35": 0},
+        "evals": {"Susanna R Kimport": 4.5, "Christine Taylor": 4.2, "Wieczorek Wojciech": 3.88},
+        "prereqs": ["Math 20"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Aut": "Ipsita Datta, Paul Falcone, Pawel Grzegrzolka, Gene Kim, Ben Lim",
+            "Win": "Gene Kim", "Spr": "George Schaeffer"
+        },
+        "units": 4,
+        "categories":["Calc"]
+    },
+
+    "CS 103": {
+        "cid": "CS 103",
+        "grades": {"A+": 5, "A": 31, "A-": 11, "B+": 9, "B": 18,
+                  "B-": 4, "C+": 4, "C": 6, "C-": 4, "D+": 0, "D": 3, "D-": 0,
+                  "NP": 4},
+        "time": {"<5": 5, "5-10": 28, "10-15": 47, "15-20": 16, "20-25": 1,
+                "25-30": 3, "30-35": 0},
+        "evals": {"Fei Fang, Cynthia B Lee": 4.05, "Cynthia B Lee": 4.02, "Keith W Schwarz": 4.62},
+        "prereqs": ["CS 106B"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Aut": "Keith W Schwarz",
+            "Win": "Cynthia B Lee", "Spr": "Cynthia B Lee"
+        },
+        "units": 5,
+        "categories":["Logic"]
+    },
+
+    "CS 109": {
+        "cid": "CS 109",
+        "grades": {"A+": 5, "A": 49, "A-": 8, "B+": 9, "B": 15,
+                  "B-": 6, "C+": 2, "C": 4, "C-": 1, "D+": 0, "D": 0, "D-": 0,
+                  "NP": 1},
+        "time": {"<5": 3, "5-10": 39, "10-15": 43, "15-20": 15, "20-25": 0,
+                "25-30": 0, "30-35": 0},
+        "evals": {"Christopher J Piech": 4.60, "Lisa Yan": 4.39, "Mehran Sahami": 4.30},
+        "prereqs": ["CS 106B", "CS 103","MATH 51"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Aut": "Lisa Yan",
+            "Win": "David Varodayan", "Spr": "Lisa Yan"
+        },
+        "units": 5,
+        "categories":["Probability"]
+    },
+
+    "PHYSICS 41": {
+        "cid": "PHYSICS 41",
+        "grades": {"A+": 4, "A": 20, "A-": 25, "B+": 22, "B": 11,
+                  "B-": 11, "C+": 3, "C": 2, "C-": 1, "D+": 0, "D": 0, "D-": 0,
+                  "NP": 0},
+        "time": {"<5": 7, "5-10": 57, "10-15": 29, "15-20": 6, "20-25": 0,
+                "25-30": 0, "30-35": 0},
+        "evals": {"Young Lee": 3.70},
+        "prereqs": ["MATH 20", "MATH 21"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Win": "Young Lee"
+        },
+        "units": 4,
+        "categories":["Physics","SimpleMath"]
+    },
+
+    "MATH 51": {
+        "cid": "MATH 51",
+        "grades": {"A+": 5, "A": 25, "A-": 19, "B+": 13, "B": 15,
+                  "B-": 10, "C+": 5, "C": 4, "C-": 3, "D+": 0, "D": 1, "D-": 0,
+                  "NP": 1},
+        "time": {"<5": 7, "5-10": 34, "10-15": 45, "15-20": 14, "20-25": 0,
+                "25-30": 0, "30-35": 0},
+        "evals": {"Wojciech Wieczorek": 3.61, "Christopher J Ohrt": 3.61,
+                  "Christine Taylor": 3.80},
+        "prereqs": ["MATH 21"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Aut": "Beatrice Chetard", "Win": "Lexing Ying", "Spr": "Wojciech Wieczorek"
+        },
+        "units": 5,
+        "categories":["LinAlg","Calc"]
+    },
+
+    "MATH 52": {
+        "cid": "MATH 52",
+        "grades": {"A+": 10, "A": 36, "A-": 20, "B+": 12, "B": 11,
+                  "B-": 4, "C+": 1, "C": 3, "C-": 1, "D+": 0, "D": 0, "D-": 0,
+                  "NP": 1},
+        "time": {"<5": 9, "5-10": 55, "10-15": 33, "15-20": 3, "20-25": 0,
+                "25-30": 0, "30-35": 0},
+        "evals": {"Mark Lucianovic": 4.33, "Or Hershkovits": 3.32,
+                  "Michael L Kemeny": 3.72},
+        "prereqs": ["MATH 51"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Aut": "Christ Ohrt", "Win": "Young Lee", "Spr": "NA"
+        },
+        "units": 5,
+        "categories":["Calc"]
+    },
+
+    "MATH 53": {
+        "cid": "MATH 53",
+        "grades": {"A+": 13, "A": 33, "A-": 14, "B+": 13, "B": 11,
+                  "B-": 5, "C+": 4, "C": 3, "C-": 1, "D+": 0, "D": 1, "D-": 0,
+                  "NP": 1},
+        "time": {"<5": 21, "5-10": 52, "10-15": 21, "15-20": 6, "20-25": 0,
+                "25-30": 0, "30-35": 0},
+        "evals": {"Vladimir Kazeev": 3.11, "Andras Vasy": 3.83,
+                  "Tadashi Tokieda": 4.5},
+        "prereqs": ["MATH 51"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Aut": "Otis Chodosh, Andrea Ottolini, Mackenzie Simper",
+            "Win": "Wojciech Wieczorek", "Spr": "Umut Varolgunes"
+        },
+        "units": 5,
+        "categories":["LinAlg","Calc"]
+    },
+
+    "MATH 104": {
+        "cid": "MATH 104",
+        "grades": {"A+": 15, "A": 43, "A-": 14, "B+": 3, "B": 13,
+                  "B-": 5, "C+": 1, "C": 5, "C-": 1, "D+": 0, "D": 0, "D-": 1,
+                  "NP": 0},
+        "time": {"<5": 11, "5-10": 69, "10-15": 20, "15-20": 0, "20-25": 0,
+                "25-30": 0, "30-35": 0},
+        "evals": {"Lexing Ying": 3.79, "Vladimir Kazeev": 3,
+                  "Christine Taylor": 4.53},
+        "prereqs": ["MATH 51", "CS 106B"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Aut": "Emmanuel Candes",
+            "Win": "Christine Taylor", "Spr": "Katerina Velcheva"
+        },
+        "units": 3,
+        "categories":["LinAlg","Logic"]
+    },
+
+    "MATH 108": {
+        "cid": "MATH 108",
+        "grades": {"A+": 13, "A": 26, "A-": 20, "B+": 16, "B": 13,
+                  "B-": 10, "C+": 2, "C": 0, "C-": 0, "D+": 0, "D": 0, "D-": 0,
+                  "NP": 0},
+        "time": {"<5": 7, "5-10": 57, "10-15": 32, "15-20": 4, "20-25": 0,
+                "25-30": 0, "30-35": 0},
+        "evals": {"Frederick R Manners": 4.21},
+        "prereqs": ["MATH 51"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+          "Spr": "Lisa Sauermann"
+        },
+        "units": 3,
+        "categories":["Logic"]
+    },
+
+    "MATH 109": {
+        "cid": "MATH 109",
+        "grades": {"A+": 14, "A": 33, "A-": 10, "B+": 14, "B": 10,
+                  "B-": 8, "C+": 2, "C": 0, "C-": 6, "D+": 0, "D": 0, "D-": 0,
+                  "NP": 2},
+        "time": {"<5": 0, "5-10": 30, "10-15": 60, "15-20": 10, "20-25": 0,
+                "25-30": 0, "30-35": 0},
+        "evals": {"Chrstine Taylor": 4.38},
+        "prereqs": ["MATH 51"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+          "Spr": "NA"
+        },
+        "units": 3,
+        "categories":["Logic"]
+    },
+
+    "MATH 113": {
+        "cid": "MATH 113",
+        "grades": {"A+": 12, "A": 26, "A-": 19, "B+": 14, "B": 9,
+                  "B-": 8, "C+": 3, "C": 5, "C-": 2, "D+": 0, "D": 0, "D-": 0,
+                  "NP": 3},
+        "time": {"<5": 0, "5-10": 35, "10-15": 41, "15-20": 12, "20-25": 6,
+                "25-30": 6, "30-35": 0},
+        "evals": {"Frederick R Manners": 4.45, "Umut Varolgunes": 4.13,
+                "Jan Vondrak": 4.09},
+        "prereqs": ["MATH 51"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+          "Aut": "Vladimir Kazeev", "Win": "Beatrice Chetard", "Spr": "NA"
+        },
+        "units": 3,
+        "categories":["LinAlg","Logic"]
+    },
+
+    "CS 205L": {
+        "cid": "CS 205L",
+        "grades": {"A+": 25, "A": 34, "A-": 15, "B+": 12, "B": 7,
+                  "B-": 1, "C+": 1, "C": 3, "C-": 0, "D+": 1, "D": 1, "D-": 0,
+                  "NP": 2},
+        "time": {"<5": 13, "5-10": 53, "10-15": 31, "15-20": 3, "20-25": 0,
+                "25-30": 0, "30-35": 0},
+        "evals": {"Ron Fedkiw": 3.63},
+        "prereqs": ["MATH 51","MATH 104"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+          "Win": "Ron Fedkiw"
+        },
+        "units": 3,
+        "categories":["ML","Probability"]
+    },
+
+    "CME 100": {
+        "cid": "CME 100",
+        "grades": {"A+": 12, "A": 24, "A-": 15, "B+": 15, "B": 15,
+                  "B-": 7, "C+": 5, "C": 3, "C-": 2, "D+": 0, "D": 0, "D-": 0,
+                  "NP": 0},
+        "time": {"<5": 0, "5-10": 54, "10-15": 33, "15-20": 11, "20-25": 2,
+                "25-30": 0, "30-35": 0},
+        "evals": {"Hung Le": 3.54, "Vadim Khayms": 3.59, "Aashwin A Mishra": 3.16},
+        "prereqs": ["MATH 21"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+          "Aut": "Vadim Khayms, Hung Le",
+          "Spr": "Hung Le"
+        },
+        "units": 5,
+        "categories":["LinAlg","Calc"]
+    },
+
+    "CME 102": {
+        "cid": "CME 102",
+        "grades": {"A+": 14, "A": 21, "A-": 21, "B+": 16, "B": 12,
+                  "B-": 6, "C+": 4, "C": 3, "C-": 1, "D+": 1, "D": 0, "D-": 0,
+                  "NP": 1},
+        "time": {"<5": 0, "5-10": 13, "10-15": 50, "15-20": 38, "20-25": 0,
+                "25-30": 0, "30-35": 0},
+        "evals": {"Hung Le": 4.1, "Mary A Cameron": 4.04, "Parviz Moin": 4.44},
+        "prereqs": ["MATH 21"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+          "Aut": "Hung Le", "Win": "Hung Le", "Spr": "Hung Le",
+          "Sum": "Hung Le"
+        },
+        "units": 5,
+        "categories":["Calc"]
+    },
+
+    "CME 103": {
+        "cid": "CME 103",
+        "grades": {"A+": 6, "A": 33, "A-": 16, "B+": 14, "B": 16,
+                  "B-": 8, "C+": 3, "C": 2, "C-": 1, "D+": 0, "D": 0, "D-": 0,
+                  "NP": 0},
+        "time": {"<5": 10, "5-10": 57, "10-15": 31, "15-20": 2, "20-25": 0,
+                "25-30": 0, "30-35": 0},
+        "evals": {"Brad G Osgood": 3.81, "Stephen Boyd, David Tse": 3.97},
+        "prereqs": ["MATH 51"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+          "Aut": "David Tse", "Win": "Brad G Osgood", "Spr": "Trisha Jani"
+        },
+        "units": 5,
+        "categories":["LinAlg"]
+    },
+
+    "PHYSICS 43": {
+        "cid": "PHYSICS 43",
+        "grades": {"A+": 9, "A": 27, "A-": 25, "B+": 17, "B": 8,
+                  "B-": 5, "C+": 5, "C": 2, "C-": 1, "D+": 0, "D": 0, "D-": 0,
+                  "NP": 0},
+        "time": {"<5": 10, "5-10": 65, "10-15": 24, "15-20": 1, "20-25": 0,
+                "25-30": 0, "30-35": 0},
+        "evals": {"Mark A Kasevich": 3.99},
+        "prereqs": ["MATH 51","PHYSICS 41"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+          "Spr": "Mark A Kasevich"
+        },
+        "units": 4,
+        "categories":["Physics","SimpleMath"]
+    },
+
+    "CS 106B": {
+        "cid": "CS 106B",
+        "grades": {"A+": 6, "A": 33, "A-": 19, "B+": 13, "B": 11,
+                  "B-": 6, "C+": 3, "C": 3, "C-": 2, "D+": 1, "D": 1, "D-": 0,
+                  "NP": 2},
+        "time": {"<5": 4, "5-10": 32, "10-15": 40, "15-20": 19, "20-25": 4,
+                "25-30": 0, "30-35": 0},
+        "evals": {"Julie D Zelenski": 4.40, "Keith W Schwarz": 4.50,
+                "Marty Stepp": 4.53},
+        "prereqs": ["CS 106A"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+          "Aut": "Cynthia B Lee", "Win": "Keith W Schwarz",
+          "Spr": "Julie Zelenski"
+        },
+        "units": 5,
+        "categories":["Algorithms"]
+    },
+
+    "ENGR 40M": {
+        "cid": "ENGR 40M",
+        "grades": {"A+": 6, "A": 30, "A-": 15, "B+": 14, "B": 21,
+                  "B-": 6, "C+": 3, "C": 3, "C-": 1, "D+": 0, "D": 0, "D-": 0,
+                  "NP": 1},
+        "time": {"<5": 10, "5-10": 38, "10-15": 44, "15-20": 7, "20-25": 0,
+                "25-30": 0, "30-35": 0},
+        "evals": {"Roger T Howe": 3.75, "Mark A Horowitz": 3.95,
+                "Siavash Kananian": 4.34},
+        "prereqs": ["CS 106A"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+          "Aut": "Mark Horowitz", "Win": "Mark Horowitz",
+          "Spr": "Roger Howe, Jim Plummer", "Sum": "Amy Fritz"
+        },
+        "units": 5,
+        "categories":["SimpleMath"]
+    },
+
+    "CS 107": {
+        "cid": "CS 107",
+        "grades": {"A+": 3, "A": 28, "A-": 18, "B+": 13, "B": 17,
+                  "B-": 13, "C+": 2, "C": 3, "C-": 1, "D+": 0, "D": 1, "D-": 0,
+                  "NP": 1},
+        "time": {"<5": 1, "5-10": 10, "10-15": 31, "15-20": 29, "20-25": 17,
+                "25-30": 11, "30-35": 2},
+        "evals": {"Nicholas P Troccoli": 4.70, "Cynthia B Lee": 4.36,
+                "Julie D Zelenski": 4.39},
+        "prereqs": ["CS 106B"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+          "Aut": "Nicholas P Troccoli", "Win": "Jerry Cain, Lisa Yan",
+          "Spr": "Christopher Gregg, Nicholas P Troccoli"
+        },
+        "units": 5,
+        "categories":["Systems"]
+    },
+
+    "CS 107E": {
+        "cid": "CS 107E",
+        "grades": {"A+": 2, "A": 39, "A-": 18, "B+": 16, "B": 13,
+                  "B-": 9, "C+": 0, "C": 2, "C-": 0, "D+": 0, "D": 0, "D-": 0,
+                  "NP": 2},
+        "time": {"<5": 0, "5-10": 5, "10-15": 21, "15-20": 21, "20-25": 32,
+                "25-30": 21, "30-35": 0},
+        "evals": {"Pat Hanrahan, Julie D Zelenski": 4.58, "Christopher Gregg": 4.77,
+                "Philip A Levis": 4.70},
+        "prereqs": ["CS 106B"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+          "Win": "Pat Hanrahan, Julie D Zelenski",
+          "Spr": "Philip A Levis"
+        },
+        "units": 5,
+        "categories":["Systems"]
+    },
+
+    "CS 110": {
+        "cid": "CS 110",
+        "grades": {"A+": 1, "A": 19, "A-": 14, "B+": 16, "B": 30,
+                  "B-": 5, "C+": 2, "C": 5, "C-": 1, "D+": 2, "D": 1, "D-": 1,
+                  "NP": 2},
+        "time": {"<5": 0, "5-10": 13, "10-15": 28, "15-20": 35, "20-25": 20,
+                "25-30": 4, "30-35": 0},
+        "evals": {"Christopher Gregg": 4.34, "Christopher Gregg, Jerry Cain": 4.55,
+                "Jerry Cain": 4.54},
+        "prereqs": ["CS 107"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+          "Aut": "Christopher Gregg, Philip A Levis",
+          "Win": "Christopher Gregg, Nicholas Troccoli",
+          "Spr": "Jerry Cain"
+        },
+        "units": 5,
+        "categories":["Systems"]
+    },
+
+    "CS 161": {
+        "cid": "CS 161",
+        "grades": {"A+": 9, "A": 27, "A-": 14, "B+": 15, "B": 19,
+                  "B-": 9, "C+": 3, "C": 2, "C-": 1, "D+": 0, "D": 0, "D-": 0,
+                  "NP": 1},
+        "time": {"<5": 6, "5-10": 46, "10-15": 33, "15-20": 15, "20-25": 0,
+                "25-30": 0, "30-35": 0},
+        "evals": {"Mary K Wootters": 4.61, "Aviad Rubinstein": 3.23,
+                "David K Eng": 4.10},
+        "prereqs": ["CS 103", "CS 109"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+          "Aut": "Aviad Rubinstein",
+          "Win": "Mary Wootters",
+          "Spr": "NA"
+        },
+        "units": 5,
+        "categories":["Algorithms"]
+    },
+
+    "CS 124": {
+        "cid": "CS 124",
+        "grades": {"A+": 12, "A": 48, "A-": 22, "B+": 8, "B": 5,
+                  "B-": 4, "C+": 1, "C": 1, "C-": 0, "D+": 0, "D": 0, "D-": 0,
+                  "NP": 1},
+        "time": {"<5": 20, "5-10": 66, "10-15": 14, "15-20": 0, "20-25": 0,
+                "25-30": 0, "30-35": 0},
+        "evals": {"Dan Jurafsky": 4.47},
+        "prereqs": ["CS 103", "CS 109", "CS 107"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+          "Win": "Dan Jurafsky"
+        },
+        "units": 4,
+        "categories":["NLP"]
+    },
+
+    "CS 131": {
+        "cid": "CS 131",
+        "grades": {"A+": 7, "A": 26, "A-": 26, "B+": 18, "B": 9,
+                  "B-": 4, "C+": 1, "C": 3, "C-": 3, "D+": 0, "D": 0, "D-": 1,
+                  "NP": 2},
+        "time": {"<5": 5, "5-10": 65, "10-15": 30, "15-20": 0, "20-25": 0,
+                "25-30": 0, "30-35": 0},
+        "evals": {"Xiaoliang Qi": 3.31, "Juan Carlos Niebles, Ranjay A Krishna": 4.06,
+                "Sean A Hartnoll": 4.19},
+        "prereqs": ["MATH 51","CS 109"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+          "Aut": "Juan Carlos Niebles, Ranjay A Krishna"
+        },
+        "units": 4,
+        "categories":["LinAlg","CV"]
+    },
+
+    "CS 223A": {
+        "cid": "CS 223A",
+        "grades": {"A+": 6, "A": 27, "A-": 32, "B+": 10, "B": 9,
+            "B-": 8, "C+": 4, "C": 0, "C-": 2, "D+": 0, "D": 0, "D-":0,
+            "NP": 0},
+        "time": {"<5": 17, "5-10": 68, "10-15": 15, "15-20": 0, "20-25": 0,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Jeannette Bohg, Oussama Khatib":3.29, "Jeannette Bohg":3.32},
+        "prereqs": ["MATH 51"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Win": "Oussama Khatib"
+        },
+        "units": 3,
+        "categories":["LinAlg","Physics"]
+    },
+
+    "CS 224N": {
+        "cid": "CS 224N",
+        "grades": {"A+": 5, "A": 38, "A-": 24, "B+": 22, "B": 7,
+            "B-": 2, "C+": 1, "C": 1, "C-": 0, "D+": 0, "D": 0, "D-":0,
+            "NP": 1},
+        "time": {"<5": 3, "5-10": 34, "10-15": 43, "15-20": 16, "20-25": 5,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Christopher Manning": 4.42, "Richard Socher": 4.23},
+        "prereqs": ["MATH 51", "CS 124"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Win": "Christopher Manning"
+        },
+        "units": 4,
+        "categories":["NLP","ML"]
+    },
+
+    "CS 224U": {
+        "cid": "CS 224U",
+        "grades": {"A+": 53, "A": 40, "A-": 4, "B+": 1, "B": 0,
+            "B-": 0, "C+": 0, "C": 0, "C-": 0, "D+": 0, "D": 0, "D-":0,
+            "NP": 0},
+        "time": {"<5": 44, "5-10": 45, "10-15": 12, "15-20": 0, "20-25": 0,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Bill MacCartney, Christopher Potts": 4.05},
+        "prereqs": ["CS 124"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Spr": "Bill MacCartney, Christopher Potts"
+        },
+        "units": 4,
+        "categories":["NLP"]
+    },
+
+    "CS 224W": {
+        "cid": "CS 224W",
+        "grades": {"A+": 3, "A": 21, "A-": 45, "B+": 15, "B": 5,
+            "B-": 3, "C+": 2, "C": 3, "C-": 2, "D+": 1, "D": 1, "D-":0,
+            "NP": 1},
+        "time": {"<5": 1, "5-10": 39, "10-15": 33, "15-20": 19, "20-25": 8,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Jure Leskovec": 4.21},
+        "prereqs": ["CS 107","CS 109","CS 103", "MATH 51"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Aut": "Jure Leskovec"
+        },
+        "units": 4,
+        "categories":["ML"]
+    },
+
+    "CS 227B": {
+        "cid": "CS 227B",
+        "grades": {"A+": 34, "A": 19, "A-": 22, "B+": 16, "B": 6,
+            "B-": 2, "C+": 0, "C": 0, "C-": 0, "D+": 0, "D": 0, "D-":0,
+            "NP": 0},
+        "time": {"<5": 16, "5-10": 68, "10-15": 16, "15-20": 0, "20-25": 0,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Michael Genesereth": 3.92},
+        "prereqs": ["CS 103"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Spr": "Michael Genesereth"
+        },
+        "units": 3,
+        "categories":["Logic","ML"]
+    },
+
+    "CS 228": {
+        "cid": "CS 228",
+        "grades": {"A+": 10, "A": 26, "A-": 28, "B+": 18, "B": 8,
+            "B-": 5, "C+": 3, "C": 1, "C-": 0, "D+": 0, "D": 1, "D-":0,
+            "NP": 0},
+        "time": {"<5": 5, "5-10": 31, "10-15": 39, "15-20": 10, "20-25": 6,
+            "25-30": 8, "30-35": 0},
+        "evals": {"Stefano Ermon": 4.27},
+        "prereqs": ["CS 161","CS 109"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Win": "Stefano Ermon"
+        },
+        "units": 4,
+        "categories":["Probability","ML"]
+    },
+
+    "CS 229": {
+        "cid": "CS 229",
+        "grades": {"A+": 5, "A": 42, "A-": 23, "B+": 11, "B": 8,
+            "B-": 4, "C+": 2, "C": 2, "C-": 1, "D+": 0, "D": 0, "D-":0,
+            "NP": 2},
+        "time": {"<5": 3, "5-10": 25, "10-15": 15, "15-20": 32, "20-25": 15,
+            "25-30": 8, "30-35": 3},
+        "evals": {"Moses Charikar, Andrew Ng, Chris Re": 4.3, "Andrew Ng, Younes Bensouda Mourri": 4.0, "Andrew Ng": 4.24, "Andrew Ng, Kian Katanforoosh":4.02, "Tengyu Ma":4.06},
+        "prereqs": ["MATH 51", "CS 109", "CS 106B"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Aut": "Moses Charikar, Andrew Ng, Chris Re", "Spr": "Moses Charikar, Tengyu Ma, Chris Re"
+        },
+        "units": 4,
+        "categories":["Probability","ML","LinAlg"]
+    },
+
+    "CS 230": {
+        "cid": "CS 230",
+        "grades": {"A+": 6, "A": 35, "A-": 31, "B+": 25, "B": 1,
+            "B-": 1, "C+": 0, "C": 0, "C-": 0, "D+": 0, "D": 0, "D-":0,
+            "NP": 0},
+        "time": {"<5": 14, "5-10": 47, "10-15": 23, "15-20": 14, "20-25": 2,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Kian Katanforoosh, Andrew Ng": 4.15, "Patrick Hayden": 4.70},
+        "prereqs": ["MATH 51","CS 106A", "CS 109", "CS 106B"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Aut": "Kian Katanforoosh, Andrew Ng", "Win": "Kian Katanforoosh, Andrew Ng", "Spr": "Kian Katanforoosh, Andrew Ng"
+        },
+        "units": 4,
+        "categories":["Probability","ML","LinAlg"]
+    },
+
+    "CS 221": {
+        "cid": "CS 221",
+        "grades": {"A+": 5, "A": 47, "A-": 16, "B+": 11, "B": 9,
+            "B-": 5, "C+": 2, "C": 3, "C-": 1, "D+": 0, "D": 0, "D-":0,
+            "NP": 1},
+        "time": {"<5": 0, "5-10": 19, "10-15": 40, "15-20": 31, "20-25": 4,
+            "25-30": 6, "30-35": 0},
+        "evals": {"Moses Charikar, Dorsa Sadigh": 3.78, "Percy Liang": 4.38, "Dorsa Sadigh": 4.22, "Stefano Ermon, Percy Liang":4.34},
+        "prereqs": ["CS 103","CS 106B", "CS 109", "CS 107"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Aut": "Percy Liang, Dorsa Sadigh", "Spr": "Chelsea Finn"
+        },
+        "units": 4,
+        "categories":["Probability","ML","Algorithms"]
+    },
+
+    "CS 231N": {
+        "cid": "CS 231N",
+        "grades": {"A+": 8, "A": 35, "A-": 21, "B+": 12, "B": 16,
+            "B-": 4, "C+": 2, "C": 1, "C-": 0, "D+": 0, "D": 0, "D-":0,
+            "NP": 1},
+        "time": {"<5": 1, "5-10": 24, "10-15": 30, "15-20": 31, "20-25": 7,
+            "25-30": 6, "30-35": 1},
+        "evals": {"Fei-Fei Li": 4.30},
+        "prereqs": ["CS 131", "CS 229", "CS 106B", "MATH 51"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Spr": "Fei-Fei Li"
+        },
+        "units": 4,
+        "categories":["CV","ML"]
+    },
+
+    "CS 234": {
+        "cid": "CS 234",
+        "grades": {"A+": 12, "A": 33, "A-": 11, "B+": 19, "B": 18,
+            "B-": 0, "C+": 3, "C": 2, "C-": 0, "D+": 0, "D": 2, "D-":0,
+            "NP": 0},
+        "time": {"<5": 5, "5-10": 48, "10-15": 27, "15-20": 15, "20-25": 4,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Emma Brunskill": 3.82, "Patrick Hayden": 4.52},
+        "prereqs": ["CS 109", "CS 106A", "CS 229"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Win": "Emma Brunskill"
+        },
+        "units": 3,
+        "categories":["Algorithms","ML","Probability"]
+    },
+
+    "CS 238": {
+        "cid": "CS 238",
+        "grades": {"A+": 7, "A": 66, "A-": 10, "B+": 6, "B": 6,
+            "B-": 3, "C+": 0, "C": 0, "C-": 0, "D+": 0, "D": 0, "D-":0,
+            "NP": 0},
+        "time": {"<5": 22, "5-10": 45, "10-15": 24, "15-20": 9, "20-25": 1,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Mykel Kochenderfer":4.38},
+        "prereqs": ["CS 109"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Aut": "Mykel Kochenderfer"
+        },
+        "units": 4,
+        "categories":["Algorithms","ML","Probability"]
+    },
+
+    "CS 232": {
+        "cid": "CS 232",
+        "grades": {"A+": 3, "A": 31, "A-": 10, "B+": 16, "B": 41,
+            "B-": 3, "C+": 2, "C": 7, "C-": 2, "D+": 0, "D": 0, "D-":0,
+            "NP": 0},
+        "time": {"<5": 0, "5-10": 25, "10-15": 56, "15-20": 13, "20-25": 6,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Bernd Girod": 4.32},
+        "prereqs": ["EE 261", "EE 278"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Win": "Bernd Girod"
+        },
+        "units": 3,
+        "categories":[]
+    },
+
+    "CS 246": {
+        "cid": "CS 246",
+        "grades": {"A+": 4, "A": 21, "A-": 24, "B+": 22, "B": 14,
+            "B-": 8, "C+": 3, "C": 1, "C-": 1, "D+": 0, "D": 0, "D-":0,
+            "NP": 1},
+        "time": {"<5": 4, "5-10": 34, "10-15": 37, "15-20": 18, "20-25": 8,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Jure Leskovec": 4.47, "Jure Leskovec, Daniel Templeton": 3.89},
+        "prereqs": ["CS 107"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Win": "Jure Leskovec"
+        },
+        "units": 4,
+        "categories":["ML","Probability"]
+    },
+
+    "CS 236": {
+        "cid": "CS 236",
+        "grades": {"A+": 17, "A": 44, "A-": 25, "B+": 10, "B": 3,
+            "B-": 0, "C+": 1, "C": 0, "C-": 0, "D+": 0, "D": 0, "D-":0,
+            "NP": 0},
+        "time": {"<5": 8, "5-10": 56, "10-15": 23, "15-20": 13, "20-25": 0,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Stefano Ermon, Aditya Grover": 4.30},
+        "prereqs": ["CS 106B", "CS 221"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Aut": "Stefano Ermon, Aditya Grover"
+        },
+        "units": 3,
+        "categories":["ML"]
+    },
+
+    "ARTHIST 1B": {
+        "cid": "ARTHIST 1B",
+        "grades": {"A+": 0, "A": 32, "A-": 43, "B+": 9, "B": 10,
+            "B-": 4, "C+": 1, "C": 1, "C-": 0, "D+": 1, "D": 0, "D-": 0,
+            "NP": 0},
+        "time": {"<5": 55, "5-10": 45, "10-15": 0, "15-20": 0, "20-25": 0,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Alexander Nemerov": 4.60},
+        "prereqs": [
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Aut": "Alexander Nemerov"
+        },
+        "units": 5,
+        "categories":["Mem","Essay"]
+    } ,
+
+    "PSYCH 1": {
+        "cid": "PSYCH 1",
+        "grades": {"A+": 6, "A": 34, "A-": 20, "B+": 16, "B": 12,
+            "B-": 6, "C+": 3, "C": 2, "C-": 1, "D+": 0, "D": 1, "D-": 0,
+            "NP": 0},
+        "time": {"<5": 16, "5-10": 69, "10-15": 15, "15-20": 0, "20-25": 0,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Jennifer R Crosby, Jamil Zaki": 4.49, "Jennifer R Crosby, Steven O Roberts": 4.52,
+            "Jennifer R Crosby, James J Gross": 4.58},
+        "prereqs": [
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Aut": "James Gross", "Win": "Jennifer R Crosby, Steven O Roberts",
+            "Spr": "Jennifer R Crosby, Jamil Zaki"
+        },
+        "units": 5,
+        "categories":["Mem"]
+    },
+
+    "ECON 1": {
+        "cid": "ECON 1",
+        "grades": {"A+": 5, "A": 27, "A-": 23, "B+": 18, "B": 18,
+            "B-": 6, "C+": 1, "C": 1, "C-": 1, "D+": 0, "D": 0, "D-": 0,
+            "NP": 1},
+        "time": {"<5": 3, "5-10": 63, "10-15": 34, "15-20": 0, "20-25": 0,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Marcelo Clerici-Arias": 4.26, "Mark Duggan": 4.11,
+            "John B Taylor": 3.83},
+        "prereqs": [
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Aut": "John Taylor", "Win": "Mark Duggan",
+            "Spr": "Marcelo Clerici-Arias"
+        },
+        "units": 5,
+        "categories":["Mem","SimpleMath"]
+    },
+
+    "COMM 166": {
+        "cid": "COMM 166",
+        "grades": {"A+": 0, "A": 44, "A-": 29, "B+": 16, "B": 4,
+            "B-": 3, "C+": 2, "C": 1, "C-": 0, "D+": 0, "D": 0, "D-": 0,
+            "NP": 1},
+        "time": {"<5": 73, "5-10": 27, "10-15": 0, "15-20": 0, "20-25": 0,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Jeremy Bailenson": 4.37},
+        "prereqs": [
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Aut": "Jeremy Bailenson"
+        },
+        "units": 5,
+        "categories":["Mem"]
+    },
+
+    "CS 106A": {
+        "cid": "CS 106A",
+        "grades": {"A+": 6, "A": 47, "A-": 10, "B+": 8, "B": 14,
+            "B-": 5, "C+": 1, "C": 3, "C-": 1, "D+": 0, "D": 1, "D-": 0,
+            "NP": 3},
+        "time": {"<5": 2, "5-10": 33, "10-15": 45, "15-20": 21, "20-25": 0,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Nicholas J Parlante": 4.43, "Chris J Piech": 4.80,
+            "Mehran Sahami": 4.63},
+        "prereqs": [
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Aut": "Nicholas J Parlante", "Win": "Nicholas J Parlante",
+            "Spr": "Chris J Piech"
+        },
+        "units": 5,
+        "categories":["Algorithms"]
+    },
+
+    "CS 151": {
+        "cid": "CS 151",
+        "grades": {"A+": 25, "A": 55, "A-": 20, "B+": 0, "B": 0,
+            "B-": 0, "C+": 0, "C": 0, "C-": 0, "D+": 0, "D": 0, "D-": 0,
+            "NP": 0},
+        "time": {"<5": 17, "5-10": 44, "10-15": 39, "15-20": 0, "20-25": 0,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Michael R Genesereth, Vinay K Chaudhri": 3.75, "Michael Shanks": 3.91},
+        "prereqs": ["CS 106B"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Spr": "Michael R Genesereth"
+        },
+        "units": 3,
+        "categories":["Algorithms","Logic"]
+    },
+
+    "CS 108": {
+        "cid": "CS 108",
+        "grades": {"A+": 25, "A": 41, "A-": 10, "B+": 5, "B": 11,
+            "B-": 2, "C+": 1, "C": 3, "C-": 0, "D+": 0, "D": 1, "D-": 0,
+            "NP": 1},
+        "time": {"<5": 17, "5-10": 44, "10-15": 39, "15-20": 0, "20-25": 0,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Patrick S Young": 4.15},
+        "prereqs": ["CS 107"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Win": "Patrick S Young"
+        },
+        "units": 4,
+        "categories":["Dev","Algorithms"]
+    },
+
+    "CS 140": {
+        "cid": "CS 140",
+        "grades": {"A+": 2, "A": 21, "A-": 32, "B+": 21, "B": 16,
+            "B-": 5, "C+": 1, "C": 1, "C-": 0, "D+": 0, "D": 0, "D-": 0,
+            "NP": 0},
+        "time": {"<5": 0, "5-10": 5, "10-15": 10, "15-20": 30, "20-25": 10,
+            "25-30": 35, "30-35": 10},
+        "evals": {"John K Ousterhout": 4.78, "David Mazieres": 4.16
+        },
+        "prereqs": ["CS 110"],
+        "py/object": "util.Course",
+        "quarters": {
+            "Win": "David Mazieres",
+            "Spr": "John Ousterhout"
+        },
+        "units": 4,
+        "categories":["Systems"]
+    },
+
+    "CS 142": {
+        "cid": "CS 142",
+        "grades": {"A+": 7, "A": 27, "A-": 20, "B+": 19, "B": 11,
+            "B-": 7, "C+": 3, "C": 1, "C-": 1, "D+": 0, "D": 0, "D-": 0,
+            "NP": 3},
+        "time": {"<5": 0, "5-10": 33, "10-15": 41, "15-20": 17, "20-25": 9,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Mendel Rosenblum": 3.85},
+        "prereqs": ["CS 107", "CS 108"],
+        "py/object": "util.Course",
+        "quarters": {
+            "Win": "Mendel Rosenblum",
+            "Spr": "Mendel Rosenblum"
+        },
+        "units": 3,
+        "categories":["Dev"]
+    },
+
+    "CS 143": {
+        "cid": "CS 143",
+        "grades": {"A+": 5, "A": 30, "A-": 12, "B+": 11, "B": 24,
+            "B-": 8, "C+": 1, "C": 5, "C-": 2, "D+": 0, "D": 0, "D-": 0,
+            "NP": 3},
+        "time": {"<5": 4, "5-10": 32, "10-15": 36, "15-20": 18, "20-25": 4,
+            "25-30": 7, "30-35": 0},
+        "evals": {"Chandra Satish": 3.39, "Alex Aiken": 4.4},
+        "prereqs": ["CS 103", "CS 107"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Spr": "NA"
+        },
+        "units": 4,
+        "categories":["Systems"]
+    },
+
+    "CS 144": {
+        "cid": "CS 144",
+        "grades": {"A+": 3, "A": 19, "A-": 22, "B+": 17, "B": 14,
+            "B-": 8, "C+": 5, "C": 3, "C-": 2, "D+": 1, "D": 2, "D-": 0,
+            "NP": 4},
+        "time": {"<5": 0, "5-10": 23, "10-15": 54, "15-20": 21, "20-25": 3,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Keith Winstein, Nick W McKeown": 4.29,
+            "Philip A Levis, Keith Winstein, Nick W McKeown": 4.46},
+        "prereqs": ["CS 110"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Aut": "Keith Winstein, Nick W McKeown"
+        },
+        "units": 4,
+        "categories":["Systems"]
+    },
+
+    "CS 145": {
+        "cid": "CS 145",
+        "grades": {"A+": 9, "A": 30, "A-": 18, "B+": 19, "B": 13,
+            "B-": 6, "C+": 2, "C": 2, "C-": 1, "D+": 0, "D": 0, "D-": 0,
+            "NP": 1},
+        "time": {"<5": 20, "5-10": 55, "10-15": 19, "15-20": 6, "20-25": 0,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Narayanan Shivakumar": 3.66, "Peter Bailis": 3.88
+        },
+        "prereqs": ["CS 103", "CS 107"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Aut": "Narayanan Shivakumar"
+        },
+        "units": 4,
+        "categories":["Systems","Dev"]
+    },
+
+    "CS 147": {
+        "cid": "CS 147",
+        "grades": {"A+": 2, "A": 23, "A-": 37, "B+": 23, "B": 10,
+            "B-": 3, "C+": 1, "C": 1, "C-": 0, "D+": 0, "D": 1, "D-": 0,
+            "NP": 0},
+        "time": {"<5": 1, "5-10": 24, "10-15": 30, "15-20": 38, "20-25": 3,
+            "25-30": 4, "30-35": 0},
+        "evals": {"James A Landay": 3.70
+        },
+        "prereqs": ["CS 106B"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Aut": "James Landay"
+        },
+        "units": 5,
+        "categories":["Dev"]
+    },
+
+    "CS 148": {
+        "cid": "CS 148",
+        "grades": {"A+": 26, "A": 34, "A-": 17, "B+": 8, "B": 10,
+            "B-": 4, "C+": 0, "C": 0, "C-": 0, "D+": 0, "D": 0, "D-": 0,
+            "NP": 1},
+        "time": {"<5": 31, "5-10": 61, "10-15": 8, "15-20": 0, "20-25": 0,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Ron Fedkiw": 3.60
+        },
+        "prereqs": ["CS 107", "MATH 51"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Aut": "Ron Fedkiw"
+        },
+        "units": 4,
+        "categories":["LinAlg","Graphics"]
+    },
+
+    "CS 149": {
+        "cid": "CS 149",
+        "grades": {"A+": 5, "A": 38, "A-": 11, "B+": 18, "B": 23,
+            "B-": 5, "C+": 0, "C": 1, "C-": 0, "D+": 0, "D": 0, "D-": 0,
+            "NP": 0},
+        "time": {"<5": 6, "5-10": 40, "10-15": 29, "15-20": 11, "20-25": 9,
+            "25-30": 6, "30-35": 0},
+        "evals": {"Oyekunle A Olukotun, Kayvon Fatahalian": 4.52,
+            "Oyekunle A Olukotun, Matei A Zaharia": 3.68},
+        "prereqs": ["CS 110"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Aut": "Oyekunle A Olukotun, Kayvon Fatahalian"
+        },
+        "units": 4,
+        "categories":["Systems"]
+    },
+
+    "CS 154": {
+        "cid": "CS 154",
+        "grades": {"A+": 7, "A": 20, "A-": 25, "B+": 21, "B": 19,
+            "B-": 7, "C+": 1, "C": 1, "C-": 0, "D+": 0, "D": 0, "D-": 0,
+            "NP": 0},
+        "time": {"<5": 11, "5-10": 56, "10-15": 27, "15-20": 7, "20-25": 0,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Omer Reingold": 4.29
+        },
+        "prereqs": ["CS 103"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Aut": "Omer Reingold"
+        },
+        "units": 4,
+        "categories":["Logic"]
+    },
+
+    "CS 155": {
+        "cid": "CS 155",
+        "grades": {"A+": 5, "A": 31, "A-": 15, "B+": 18, "B": 16,
+            "B-": 8, "C+": 0, "C": 5, "C-": 0, "D+": 0, "D": 0, "D-": 0,
+            "NP": 1},
+        "time": {"<5": 7, "5-10": 59, "10-15": 33, "15-20": 1, "20-25": 0,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Dan Boneh, Zakir Durumeric": 4.41,
+            "Dan Boneh, John C Mitchell": 4.41},
+        "prereqs": ["CS 110"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Spr": "Dan Boneh, Zakir Durumeric"
+        },
+        "units": 5,
+        "categories":["Systems"]
+    },
+
+    "CS 166": {
+        "cid": "CS 166",
+        "grades": {"A+": 12, "A": 37, "A-": 14, "B+": 8, "B": 14,
+            "B-": 4, "C+": 2, "C": 4, "C-": 2, "D+": 0, "D": 1, "D-": 0,
+            "NP": 1},
+        "time": {"<5": 0, "5-10": 42, "10-15": 26, "15-20": 24, "20-25": 8,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Keith W Schwarz": 4.72
+        },
+        "prereqs": ["CS 107", "CS 161"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Spr": "Keith W Schwarz"
+        },
+        "units": 4,
+        "categories":["Algorithms"]
+    },
+
+    "CS 168": {
+        "cid": "CS 168",
+        "grades": {"A+": 3, "A": 40, "A-": 24, "B+": 16, "B": 8,
+            "B-": 3, "C+": 3, "C": 3, "C-": 0, "D+": 0, "D": 0, "D-": 0,
+            "NP": 1},
+        "time": {"<5": 10, "5-10": 67, "10-15": 21, "15-20": 1, "20-25": 0,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Justin Leidwanger": 3.86, "Gregory J Valiant": 4.25
+        },
+        "prereqs": ["CS 107", "CS 161"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Spr": "Gregory J Valiant"
+        },
+        "units": 4,
+        "categories":["Algorithms"]
+    },
+
+    "CS 190": {
+        "cid": "CS 190",
+        "grades": {"A+": 0, "A": 58, "A-": 39, "B+": 3, "B": 0,
+            "B-": 0, "C+": 0, "C": 0, "C-": 0, "D+": 0, "D": 0, "D-": 0,
+            "NP": 0},
+        "time": {"<5": 0, "5-10": 0, "10-15": 33, "15-20": 33, "20-25": 33,
+            "25-30": 0, "30-35": 0},
+        "evals": {"John K Ousterhout": 4.90
+        },
+        "prereqs": ["CS 140"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Win": "John K Ousterhout"
+        },
+        "units": 5,
+        "categories":["Systems","Dev"]
+    },
+    "CS 240": {
+        "cid": "CS 240",
+        "grades": {"A+": 4, "A": 28, "A-": 20, "B+": 15, "B": 16,
+            "B-": 10, "C+": 3, "C": 2, "C-": 1, "D+": 0, "D": 0, "D-":0,
+            "NP": 1},
+        "time": {"<5": 25, "5-10": 67, "10-15": 10, "15-20": 0, "20-25": 0,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Dawson Engler": 4.34, "Robert Laughlin":3.94},
+        "prereqs": ["CS 140"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Spr": "Dawson Engler"
+        },
+        "units": 3,
+        "categories":["Systems"]
+    },
+    "CS 242": {
+        "cid": "CS 242",
+        "grades": {"A+": 22, "A": 49, "A-": 19, "B+": 3, "B": 5,
+            "B-": 1, "C+": 0, "C": 0, "C-": 0, "D+": 0, "D": 1, "D-":0,
+            "NP": 0},
+        "time": {"<5": 2, "5-10": 60, "10-15": 38, "15-20": 0, "20-25": 0,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Will Crichton": 4.49},
+        "prereqs": ["CS 103","CS 110"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Aut": "Will Crichton"
+        },
+        "units": 4,
+        "categories":["Systems","Logic"]
+    },
+    "CS 243": {
+        "cid": "CS 243",
+        "grades": {"A+": 8, "A": 40, "A-": 15, "B+": 4, "B": 21,
+            "B-": 6, "C+": 1, "C": 0, "C-": 0, "D+": 0, "D": 0, "D-":0,
+            "NP": 4},
+        "time": {"<5": 17, "5-10": 56, "10-15": 17, "15-20": 6, "20-25": 6,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Monica Lam":3.75},
+        "prereqs": ["CS 103","CS 107"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Win": "Monica Lam"
+        },
+        "units": 4,
+        "categories":["Systems","Logic"]
+    },
+    "CS 244": {
+        "cid": "CS 244",
+        "grades": {"A+": 5, "A": 28, "A-": 28, "B+": 17, "B": 16,
+            "B-": 6, "C+": 3, "C": 0, "C-": 0, "D+": 0, "D": 0, "D-":0,
+            "NP": 0},
+        "time": {"<5": 0, "5-10": 40, "10-15": 30, "15-20": 30, "20-25": 0,
+            "25-30": 0, "30-35": 0},
+        "evals": {"David Mazieres": 4.04, "Keith Winstein, Sachin Katti":4.06},
+        "prereqs": ["CS 144"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Spr": "Nick McKeown"
+        },
+        "units": 4,
+        "categories":["Systems"]
+    },
+    "CS 245": {
+        "cid": "CS 245",
+        "grades": {"A+": 9, "A": 32, "A-": 19, "B+": 12, "B": 13,
+            "B-": 8, "C+": 1, "C": 3, "C-": 1, "D+": 0, "D": 0, "D-":0,
+            "NP": 1},
+        "time": {"<5": 24, "5-10": 65, "10-15": 11, "15-20": 0, "20-25": 0,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Matei Zaharia": 4.33},
+        "prereqs": ["CS 161","CS 145"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Win": "Matei Zaharia"
+        },
+        "units": 3,
+        "categories":["Systems"]
+    },
+    "CS 244B": {
+        "cid": "CS 244B",
+        "grades": {"A+": 0, "A": 44, "A-": 29, "B+": 21, "B": 6,
+            "B-": 0, "C+": 0, "C": 0, "C-": 0, "D+": 0, "D": 0, "D-":0,
+            "NP": 0},
+        "time": {"<5": 32, "5-10": 50, "10-15": 12, "15-20": 6, "20-25": 0,
+            "25-30": 0, "30-35": 0},
+        "evals": {"David Mazieres": 4.04},
+        "prereqs": ["CS 144"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Spr": "David Mazieres"
+        },
+        "units": 3,
+        "categories":["Systems"]
+    },
+    "CS 248": {
+        "cid": "CS 248",
+        "grades": {"A+": 35, "A": 34, "A-": 11, "B+": 7, "B": 7,
+            "B-": 4, "C+": 1, "C": 0, "C-": 0, "D+": 0, "D": 0, "D-":0,
+            "NP": 1},
+        "time": {"<5": 8, "5-10": 44, "10-15": 38, "15-20": 10, "20-25": 0,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Ron Fedkiw": 4.1,"Kayvon Fatahalian":4.45},
+        "prereqs": ["CS 107","MATH 51"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Win": "Kayvon Fatahalian"
+        },
+        "units": 4,
+        "categories":["LinAlg","Graphics"]
+    },
+    "CS 251": {
+        "cid": "CS 251",
+        "grades": {"A+": 3, "A": 41, "A-": 13, "B+": 15, "B": 21,
+            "B-": 5, "C+": 0, "C": 1, "C-": 0, "D+": 0, "D": 0, "D-":0,
+            "NP": 1},
+        "time": {"<5": 12, "5-10": 61, "10-15": 26, "15-20": 1, "20-25": 0,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Dan Boneh, David Mazieres": 4.23},
+        "prereqs": ["CS 110"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Aut": "Dan Boneh"
+        },
+        "units": 3,
+        "categories":["Systems","Algorithms"]
+    },
+    "CS 254": {
+        "cid": "CS 254",
+        "grades": {"A+": 24, "A": 62, "A-": 10, "B+": 3, "B": 0,
+            "B-": 0, "C+": 0, "C": 0, "C-": 0, "D+": 0, "D": 0, "D-":0,
+            "NP": 0},
+        "time": {"<5": 40, "5-10": 60, "10-15": 0, "15-20": 0, "20-25": 0,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Li-Yang Tan": 4.62},
+        "prereqs": ["CS 154"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Win": "Li-Yang Tan"
+        },
+        "units": 4,
+        "categories":["Logic"]
+    },
+    "CS 255": {
+        "cid": "CS 255",
+        "grades": {"A+": 5, "A": 30, "A-": 14, "B+": 15, "B": 20,
+            "B-": 11, "C+": 0, "C": 6, "C-": 0, "D+": 0, "D": 0, "D-":0,
+            "NP": 1},
+        "time": {"<5": 9, "5-10": 56, "10-15": 25, "15-20": 10, "20-25": 0,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Dan Boneh": 4.50},
+        "prereqs": ["CS 109"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Win": "Dan Boneh"
+        },
+        "units": 3,
+        "categories":["Probability","Algorithms"]
+    },
+    "CS 261": {
+        "cid": "CS 261",
+        "grades": {"A+": 6, "A": 42, "A-": 32, "B+": 10, "B": 8,
+            "B-": 3, "C+": 3, "C": 0, "C-": 1, "D+": 0, "D": 0, "D-":0,
+            "NP": 0},
+        "time": {"<5": 0, "5-10": 58, "10-15": 32, "15-20": 11, "20-25": 0,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Moses Charikar": 4.37, "Ashish Goel":4.29},
+        "prereqs": ["CS 161","CS 109"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Win": "Moses Charikar"
+        },
+        "units": 3,
+        "categories":["Algorithms"]
+    },
+    "CS 265": {
+        "cid": "CS 265",
+        "grades": {"A+": 4, "A": 33, "A-": 14, "B+": 35, "B": 12,
+            "B-": 1, "C+": 2, "C": 0, "C-": 0, "D+": 0, "D": 0, "D-":0,
+            "NP": 1},
+        "time": {"<5": 3, "5-10": 59, "10-15": 35, "15-20": 3, "20-25": 0,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Gregory Valiant": 4.55},
+        "prereqs": ["CS 161","CS 109"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Aut": "Gregory Valiant"
+        },
+        "units": 3,
+        "categories":["Algorithms","Probability"]
+    },
+    "CS 270": {
+        "cid": "CS 270",
+        "grades": {"A+": 8, "A": 40, "A-": 24, "B+": 13, "B": 8,
+            "B-": 4, "C+": 0, "C": 1, "C-": 0, "D+": 0, "D": 1, "D-":0,
+            "NP": 1},
+        "time": {"<5": 22, "5-10": 56, "10-15": 22, "15-20": 0, "20-25": 0,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Mark Musen": 3.20},
+        "prereqs": ["CS 106A","CS 109"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Win": "Mark Musen"
+        },
+        "units": 3,
+        "categories":["Bio","Algorithms"]
+    },
+    "CS 273B": {
+        "cid": "CS 273B",
+        "grades": {"A+": 17, "A": 72, "A-": 10, "B+": 0, "B": 0,
+            "B-": 0, "C+": 0, "C": 0, "C-": 0, "D+": 0, "D": 0, "D-":0,
+            "NP": 0},
+        "time": {"<5": 34, "5-10": 50, "10-15": 16, "15-20": 0, "20-25": 0,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Anshul Kundaje, James Zou": 3.57},
+        "prereqs": ["MATH 51","CS 109","CS 229"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Aut": "Anshul Kundaje, James Zou"
+        },
+        "units": 3,
+        "categories":["Probability","ML"]
+    },
+    "CS 273A": {
+        "cid": "CS 273A",
+        "grades": {"A+": 3, "A": 36, "A-": 19, "B+": 14, "B": 15,
+            "B-": 7, "C+": 1, "C": 3, "C-": 0, "D+": 0, "D": 0, "D-":0,
+            "NP": 1},
+        "time": {"<5": 10, "5-10": 30, "10-15": 60, "15-20": 0, "20-25": 0,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Gill Bejerano": 3.0},
+        "prereqs": ["CS 106B"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Win": "Gill Bejerano"
+        },
+        "units": 3,
+        "categories":["Bio","Algorithms"]
+    },
+    "CS 274": {
+        "cid": "CS 274",
+        "grades": {"A+": 4, "A": 38, "A-": 18, "B+": 11, "B": 12,
+            "B-": 9, "C+": 3, "C": 3, "C-": 1, "D+": 0, "D": 0, "D-":0,
+            "NP": 1},
+        "time": {"<5": 6, "5-10": 42, "10-15": 35, "15-20": 17, "20-25": 0,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Russ Altman": 4.34},
+        "prereqs": ["CS 106B"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Aut": "Russ Altman"
+        },
+        "units": 4,
+        "categories":["Algorithms","ML"]
+    },
+    "CS 278": {
+        "cid": "CS 278",
+        "grades": {"A+": 5, "A": 57, "A-": 20, "B+": 13, "B": 2,
+            "B-": 1, "C+": 0, "C": 1, "C-": 0, "D+": 0, "D": 0, "D-":0,
+            "NP": 0},
+        "time": {"<5": 58, "5-10": 39, "10-15": 3, "15-20": 0, "20-25": 0,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Michael Bernstein": 4.61},
+        "prereqs": [
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Spr": "Michael Bernstein"
+        },
+        "units": 3,
+        "categories":["Dev"]
+    },
+    "CS 279": {
+        "cid": "CS 279",
+        "grades": {"A+": 9, "A": 56, "A-": 19, "B+": 7, "B": 4,
+            "B-": 4, "C+": 0, "C": 1, "C-": 0, "D+": 0, "D": 0, "D-":0,
+            "NP": 1},
+        "time": {"<5": 26, "5-10": 62, "10-15": 12, "15-20": 0, "20-25": 0,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Ron Dror": 4.07},
+        "prereqs": ["CS 106A","BIO 60"
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Aut": "Ron Dror, Possu Huang"
+        },
+        "units": 4,
+        "categories":["Bio"]
+    },
+
+    "ANTHRO 1": {
+        "cid": "ANTHRO 1",
+        "grades": {"A+": 16, "A": 50, "A-": 13, "B+": 8, "B": 6,
+            "B-": 4, "C+": 1, "C": 2, "C-": 1, "D+": 0, "D": 0, "D-": 0,
+            "NP": 0},
+        "time": {"<5": 46, "5-10": 49, "10-15": 6, "15-20": 0, "20-25": 0,
+            "25-30": 0, "30-35": 0},
+        "evals": {"James Ferguson": 4.49
+        },
+        "prereqs": [
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Win": "James Ferguson"
+        },
+        "units": 4,
+        "categories":["Mem", "Essay"]
+    },
+
+    "GERMAN 101": {
+        "cid": "GERMAN 101",
+        "grades": {"A+": 10, "A": 61, "A-": 23, "B+": 4, "B": 1,
+            "B-": 1, "C+": 0, "C": 0, "C-": 0, "D+": 0, "D": 0, "D-": 0,
+            "NP": 0},
+        "time": {"<5": 95, "5-10": 5, "10-15": 0, "15-20": 0, "20-25": 0,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Adrian Daub": 3.86
+        },
+        "prereqs": [
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Spr": "Adrian Daub"
+        },
+        "units": 4,
+        "categories":["Essay"]
+    },
+
+    "PHIL 1": {
+        "cid": "PHIL 1",
+        "grades": {"A+": 3, "A": 27, "A-": 35, "B+": 19, "B": 13,
+            "B-": 3, "C+": 0, "C": 0, "C-": 0, "D+": 0, "D": 0, "D-": 0,
+            "NP": 1},
+        "time": {"<5": 36, "5-10": 62, "10-15": 2, "15-20": 0, "20-25": 0,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Nadeem Hussain": 4.21
+        },
+        "prereqs": [
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Aut": "Erin Cooper, Seyoung Kang, Krista Lawlor"
+        },
+        "units": 4,
+        "categories":["Essay"]
+    },
+
+    "CS 181W": {
+        "cid": "CS 181W",
+        "grades": {"A+": 4, "A": 42, "A-": 19, "B+": 17, "B": 11,
+            "B-": 3, "C+": 1, "C": 2, "C-": 0, "D+": 0, "D": 0, "D-": 0,
+            "NP": 0},
+        "time": {"<5": 15, "5-10": 57, "10-15": 28, "15-20": 0, "20-25": 0,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Allison Berke, Winstein Keith": 4.23
+        },
+        "prereqs": [
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Spr": "Allison Berke, Winstein Keith"
+        },
+        "units": 4,
+        "categories":["Essay"]
+    },
+
+    "BIOE 131": {
+        "cid": "BIOE 131",
+        "grades": {"A+": 4, "A": 34, "A-": 17, "B+": 16, "B": 11,
+            "B-": 7, "C+": 3, "C": 4, "C-": 1, "D+": 0, "D": 1, "D-": 0,
+            "NP": 2},
+        "time": {"<5": 24, "5-10": 76, "10-15": 0, "15-20": 0, "20-25": 0,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Russ B Altman, David C Magnus": 4.09
+        },
+        "prereqs": [
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Spr": "Russ B Altman, David C Magnus"
+        },
+        "units": 3,
+        "categories":["Essay"]
+    },
+
+    "PHIL 2": {
+        "cid": "PHIL 2",
+        "grades": {"A+": 3, "A": 41, "A-": 28, "B+": 20, "B": 5,
+            "B-": 2, "C+": 1, "C": 1, "C-": 0, "D+": 0, "D": 0, "D-": 0,
+            "NP": 1},
+        "time": {"<5": 43, "5-10": 57, "10-15": 0, "15-20": 0, "20-25": 0,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Barry Maguire": 3.19
+        },
+        "prereqs": [
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Spr": "Barry Maguire"
+        },
+        "units": 5,
+        "categories":["Essay"]
+    },
+
+    "MUSIC 19A": {
+        "cid": "MUSIC 19A",
+        "grades": {"A+": 42, "A": 33, "A-": 13, "B+": 5, "B": 1,
+            "B-": 2, "C+": 1, "C": 0, "C-": 1, "D+": 1, "D": 1, "D-": 0,
+            "NP": 1},
+        "time": {"<5": 25, "5-10": 67, "10-15": 8, "15-20": 0, "20-25": 0,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Talya Berger": 4.30, "Francois Rose": 4.52
+        },
+        "prereqs": [
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Aut": "Talya Berger", "Win": "Francois Rose"
+        },
+        "units": 3,
+        "categories":["Art"]
+    },
+
+    "ETHICSOC 171": {
+        "cid": "ETHICSOC 171",
+        "grades": {"A+": 3, "A": 41, "A-": 33, "B+": 17, "B": 4,
+            "B-": 0, "C+": 0, "C": 0, "C-": 0, "D+": 0, "D": 0, "D-": 0,
+            "NP": 2},
+        "time": {"<5": 23, "5-10": 68, "10-15": 9, "15-20": 0, "20-25": 0,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Brian Coyne": 3.98, "Rob Reich": 4.61
+        },
+        "prereqs": [
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Aut": "Brian Coyne"
+        },
+        "units": 5,
+        "categories":["Essay"]
+    },
+
+    "COMM 154": {
+        "cid": "COMM 154",
+        "grades": {"A+": 0, "A": 49, "A-": 27, "B+": 14, "B": 8,
+            "B-": 1, "C+": 0, "C": 0, "C-": 1, "D+": 0, "D": 0, "D-": 0,
+            "NP": 0},
+        "time": {"<5": 50, "5-10": 50, "10-15": 0, "15-20": 0, "20-25": 0,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Angele Christin": 4.5
+        },
+        "prereqs": [
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Aut": "Angele Christin"
+        },
+        "units": 5,
+        "categories":["Essay"]
+    },
+
+    "ANTHRO 82": {
+        "cid": "ANTHRO 82",
+        "grades": {"A+": 3, "A": 48, "A-": 23, "B+": 8, "B": 11,
+            "B-": 3, "C+": 0, "C": 1, "C-": 0, "D+": 0, "D": 0, "D-": 3,
+            "NP": 0},
+        "time": {"<5": 28, "5-10": 59, "10-15": 10, "15-20": 3, "20-25": 0,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Angela Garcia": 4.41, "Daniel Mason": 4.62
+        },
+        "prereqs": [
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Aut": "Angela Garcia"
+        },
+        "units": 5,
+        "categories":["Essay"]
+    },
+
+    "HISTORY 107": {
+        "cid": "HISTORY 107",
+        "grades": {"A+": 4, "A": 48, "A-": 27, "B+": 15, "B": 3,
+            "B-": 1, "C+": 0, "C": 0, "C-": 0, "D+": 0, "D": 0, "D-": 0,
+            "NP": 1},
+        "time": {"<5": 26, "5-10": 74, "10-15": 0, "15-20": 0, "20-25": 0,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Deland Chan, Zephyr Frank, Michael Kahan": 4.69
+        },
+        "prereqs": [
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Win": "Deland Chan, Michael Kahan"
+        },
+        "units": 4,
+        "categories":["Essay"]
+    },
+
+    "ARTSTUDI 170": {
+        "cid": "ARTSTUDI 170",
+        "grades": {"A+": 17, "A": 62, "A-": 16, "B+": 3, "B": 0,
+            "B-": 0, "C+": 0, "C": 0, "C-": 0, "D+": 0, "D": 0, "D-": 0,
+            "NP": 1},
+        "time": {"<5": 0, "5-10": 50, "10-15": 25, "15-20": 25, "20-25": 0,
+            "25-30": 0, "30-35": 0},
+        "evals": {"Christine Seror, Victor Yanez, Sarah Peck": 4.67
+        },
+        "prereqs": [
+        ],
+        "py/object": "util.Course",
+        "quarters": {
+            "Aut": "Christine Seror, Victor Yanez, Sarah Peck",
+            "Win": "Christine Seror, Victor Yanez, Sarah Peck",
+            "Spr": "Christine Seror, Victor Yanez, Sarah Peck"
+        },
+        "units": 4,
+        "categories":["Art"]
+    }
+}
