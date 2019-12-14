@@ -195,7 +195,8 @@ def simulate(mdp, rl, numTrials=10, maxIterations=1000, verbose=False,
         totalRewards.append(totalReward)
     return totalRewards
 ## INTERFACE FOR RUNNING SIMPLE ENROLL ##
-def simpleEnroll() :
+def simpleEnroll(bulletin) :
+    validClasses = set(bulletin.keys()).union({''})
     print("Welcome to Simple Enroll!")
     print("Press 'x' to quit!")
     validQuarters = {"Aut","Win","Spr"}
@@ -216,6 +217,12 @@ def simpleEnroll() :
 
     constraints = set()
     constraint = input("What classes do you ABSOLUTELY want in your schedule? (example: CS 106A (with space)). Press Enter when done: ")
+    while(constraint not in validClasses):
+        if(constraint == 'x'):
+            sys.exit()
+        print("Sorry, we didn't scrape that class!")
+        constraint = input("What classes do you ABSOLUTELY want in your schedule? (example: CS 106A (with space)). Press Enter when done: ")
+
     while(True):
         if(constraint == 'x'):
             sys.exit()
@@ -223,29 +230,62 @@ def simpleEnroll() :
             break
         constraints.add(constraint)
         constraint = input("Add another class: (Enter when done)")
+        while(constraint not in validClasses):
+            if(constraint == 'x'):
+                sys.exit()
+            print("Sorry, we didn't scrape that class!")
+            constraint = input("What classes do you ABSOLUTELY want in your schedule? (example: CS 106A (with space)). Press Enter when done: ")
 
+
+    validClasses = validClasses.union({"er", "ce", "ed", "si", "aii"})
+    validGrades= {"A+","A","A-","B+","B","B-","C+","C","C-","D+","D","D-","NP"}
     takenClasses = {}
     print("Now you will tell me your previous classes and grades: (Press x to quit)")
-    takenClass = input("Class Name? (e.g CS 106A with the space): ")
-    if(takenClass == 'x'):
-        sys.exit()
+    takenClass = input("Class Name? (e.g CS 106A with the space) Press Enter when done: ")
+    while(takenClass not in validClasses):
+        if(takenClass == 'x'):
+            sys.exit()
+        print("Sorry, we didn't scrape that class!")
+        takenClass = input("Class Name? (e.g CS 106A with the space) Press Enter when done: ")
+    # if(takenClass == 'x'):
+    #     sys.exit()
     if(takenClass != ''):
         takenGrade = input("Grade? (A+, A, A-, .... , D-, NP): ")
+        while(takenGrade not in validGrades):
+            if(takenGrade == 'x'):
+                sys.exit()
+            print("Invalid grade")
+            takenGrade = input("Grade? (A+, A, A-, .... , D-, NP): ")
         while(True):
             if(takenClass == 'x' or takenGrade == 'x'):
                 sys.exit()
             if (takenClass == "" or takenGrade == ""):
                 break
             takenClasses[takenClass] = takenGrade
-            takenClass = input("Class Name? (e.g CS 106A with the space): ")
-            if(takenClass == 'x'):
-                sys.exit()
+            takenClass = input("Class Name? (e.g CS 106A with the space) Press Enter when done: ")
+            while(takenClass not in validClasses):
+                if(takenClass == 'x'):
+                    sys.exit()
+                print("Sorry, we didn't scrape that class!")
+                takenClass = input("Class Name? (e.g CS 106A with the space) Press Enter when done: ")
             if (takenClass == ""):
                 break
             takenGrade = input("Grade? (A+, A, A-, .... , D-, NP): ")
+            while(takenGrade not in validGrades):
+                if(takenGrade == 'x'):
+                    sys.exit()
+                print("Invalid grade")
+                takenGrade = input("Grade? (A+, A, A-, .... , D-, NP): ")
 
     prevClasses = tuple([(k,v) for k,v in takenClasses.items()]) if len(takenClasses) > 0 else tuple()
     constraints = tuple(constraints)
     start = (prevClasses, quarter, int(year), constraints)
-    ("Start state: ", start)
+    ydict = {1:"Freshman ",2:"Sophomore ",3:"Junior ",4:"Senior "}
+    qdict = {"Aut":"Fall","Win":"Winter","Spr":"Spring"}
+    print("===================")
+    print("Previous classes: ",prevClasses )
+    print("Recommendaing courses for : ", ydict[int(year)],qdict[quarter])
+    print("Student constraints ", constraints)
+    print("===================")
+    print("Generating....")
     return start

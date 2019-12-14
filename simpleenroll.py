@@ -14,7 +14,7 @@ import sys
 ############################################################
 
 class CourseMDP(util.MDP):
-    def __init__(self, start):
+    def __init__(self, start,bulletin):
         """
         We define all dictionaries necessary to model our Course MDP.
         """
@@ -48,7 +48,7 @@ class CourseMDP(util.MDP):
             #6. Key: "units" -> Val: maximum number of units the course can be taken for
             #7. Key: "categories" -> Val: categories the class falls under. We came up with these. These are useful for identifying what "types" of classes a student might perform well in.
             #8. Key: "cid" -> Val: the course id.
-        self.bulletin = json.loads(open('cartadata.json').read())
+        self.bulletin = bulletin
 
         #User-defined start state.
         self.start = start
@@ -568,16 +568,16 @@ class CourseMDP(util.MDP):
     def discount(self):
         return 1
 
-
+bulletin = json.loads(open('cartadata.json').read())
 #Run  Value Iteration"
-startState = simpleEnroll()
+startState = simpleEnroll(bulletin)
 # startState = ((("MATH 19", "A"), ("MATH 20", "A"), ("CS 106B","B+"),("MATH 21", "A"),("ECON 1","A"),("MATH 51", "A-"),("CS 107", "A-"),
 #                 ("CS 106A", "A"), ("CS 109", "A")),
 #                  "Aut", 2, ())
 
 
 
-courseMDP = CourseMDP(startState)
+courseMDP = CourseMDP(startState,bulletin)
 vi = ValueIteration()
 vi.solve(courseMDP)
 pi_vi = vi.pi
